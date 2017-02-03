@@ -1,0 +1,50 @@
+1 Introduction
+	1.1 Purpose
+	1.2 Scope
+	1.3 Definitions,Acronyms,Abbreviations
+	1.4 Refrences
+	1.5 Overview
+
+2 The Overall Description
+	2.1 Product Perspective
+		2.1.1 System interfaces
+		2.1.2 Interfaces
+		2.1.3 Hardware interfaces
+		2.1.4 Software interfaces
+		2.1.5 Communication interfaces
+		2.1.6 Memory constraints
+		2.1.7 operations
+		2.1.8 site adaption requirements
+			
+	2.2 Product functions
+	2.3 User characterstics
+	2.4 constraints
+	2.5 assumptions and dependencies
+	2.6 apportioning of requirements
+
+3 Specific requirements
+	3.1 External interface
+	3.2 functions
+	3.3 performance requirements
+	3.4 logical database reuirements
+	3.5 design constraint
+		3.5.1 standards compliance
+	3.6 software system attributes
+		3.6.1 reliability
+		3.6.2 availability
+		3.6.3 security
+		3.6.4 maintanabiltiy
+		3.6.5 portability
+	3.7 organising specific requirements
+		3.7.1 system mode
+		3.7.2 user class
+		3.7.3 objects
+		3.7.4 feature
+		3.7.5 stimulus
+		3.7.6 response
+		3.7.8 functional hierarchy
+	3.8 additional comments
+
+4 change management process
+5 document approvals 
+6 supporting information 
