@@ -1,0 +1,22 @@
+*****1 and 2 section are the same as abstract SRS organisation refer it****
+
+3 Specific Requirements
+	3.1 Functional Requirements
+		3.1.1 Mode 1(Static image)
+			3.1.1.1 External interface
+			3.1.1.2 user interface
+			3.1.1.3 hardware interface
+			3.1.1.4 software interface
+			3.1.1.5 communication interface
+			3.1.1.5 functional requirements
+				a functional requirement 1
+				b ...
+		3.1.2 Mode 2 (real time detection)
+			...
+			...
+			...
+	3.2 Design constraint
+	3.3 software system attributes
+	...
+	...
+
