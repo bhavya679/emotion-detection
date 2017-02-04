@@ -12,20 +12,20 @@
   
   MODE 1(image analysis)
 	
-	-this screen will come after user has chosen an image either he/she 
+	-this screen will come after user has chosen an image, either he/she 
 	can continue analysis or choose another image.
 	
-	-searching of a single face from the image 
+	-searching for a single face from the image 
 
-	-if multiple faces are present user has to choose another image he/she can't proceed
+	-if multiple faces are present user has to choose another image, he/she can't proceed further
 		
 	-if single face is detected in image by face detector and user is 
 	satisfied with the image another screen will appear
 
 	-image analysis screen will show the face under recognition and 
-	emotions detected in the image in decreasing order
+	emotions detected in the image in decreasing order of most likely emotion
 
-	-user either can exit the screen he/she will be directed to first screen
+	-user can exit the screen he/she will be directed to main screen
  	where they again have the same choices
 
   MODE 2(real time emotion detection)
@@ -37,15 +37,15 @@
 	
 	-detection of face from the images
 
-	-asking user to focus only one image from front camera if multiple images are detected
-
-	-identifying various points on face which are usefull for emotion detection
-
-	-emotion detection using the processed information
-
-	-calculating results
+	-asking user to focus front camera to only one face in case of multiple face detection.
 	
-	-there is apie chart at the bottom of the screen showing the calculated value of the 
-	user emotion
+	-identifying various points on face which are usefull for emotion detection.
 
-	-pie chart will change dynamically if user will change it's emotion	
+	-emotion detection using the processed information.
+
+	-calculating results.
+	
+	-there is a pie chart at the bottom of the screen showing the calculated value of the 
+	user's emotion
+
+	-pie chart will change dynamically if user will change it's emotion.
