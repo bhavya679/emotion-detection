@@ -1,51 +1,56 @@
+
+SOFTWARE REQUIREMENT SPECIFICATION 
+
+
+BASIC RAW INFORMATION TO WRITE SRS
+******* 
   Select photo from gallery
   option to choose other photo or start analysis
   real time emotion detection
   analysis of emotion
-  detection of mmultiple faces and asking to go back
+  detection of multiple faces and asking to go back
   face detection
   detection of specific points on face
   stop
-  
+*******
 
-  A screen to opt for image analysis or real time analysis
+FUNCTIONAL REQUIREMENT 
+
+  Main screen - This will be the first screen that will be displayed.It will allow user to access different based upon user's preference.
+  Various fields available on this screen will be. 
+	1)Choose image - select images from user's gallery
+	2)Do analysis(don't know exact name) - starts emotion detection using front camera.
   
   MODE 1(image analysis)
 	
-	-this screen will come after user has chosen an image, either he/she 
-	can continue analysis or choose another image.
+	-This screen will be accessible only if user has chosen an image from gallery. User shall 
+	 either continue analysis or choose another image.
 	
-	-searching for a single face from the image 
-
-	-if multiple faces are present user has to choose another image, he/she can't proceed further
+	-Searching for a single face from the image and showing user the selected region.If multiple
+         faces are present user has to choose another image, he/she can't proceed further
 		
-	-if single face is detected in image by face detector and user is 
-	satisfied with the image another screen will appear
+	-If single face is detected in image by face detector and user is 
+	satisfied with the image user can continue further.
 
-	-image analysis screen will show the face under recognition and 
-	emotions detected in the image in decreasing order of most likely emotion
+	-This screen will appear if user has chosen an image for emotion detection .This screen shall
+	 show the face under recognition and emotions detected in the image in decreasing order of most likely emotion.
 
-	-user can exit the screen he/she will be directed to main screen
- 	where they again have the same choices
+	-User can exit the screen he/she shall be directed to main screen where user again has the same choices
 
   MODE 2(real time emotion detection)
 		
-	-there will be a button by clicking it you can start the analysis 
-	(I think we haven't discussed it but it is needed for sure)
+	-This screen will be accessible only if user has chosen emotion analysis by front camera(don't know what exactly should go here).
+ 	 There shall be a button by clicking it user can start the analysis(I think we haven't discussed it but it is needed for sure)
 	
-	-button to stop the analysis and it will direct the user to main screen
+	-Button to stop the analysis and it shall direct the user to main screen
 	
-	-detection of face from the images
-
-	-asking user to focus front camera to only one face in case of multiple face detection.
+	-Detection of face from the images. User has to focus front camera to only one face in case if there is multiple face detection.
 	
-	-identifying various points on face which are usefull for emotion detection.
+	-Identification of various points on face which are usefull for emotion detection.
 
-	-emotion detection using the processed information.
-
-	-calculating results.
+	-Emotion detection using the processed information and calculation of results.
 	
-	-there is a pie chart at the bottom of the screen showing the calculated value of the 
-	user's emotion
+	-There shall be a pie chart at the bottom of the screen showing the calculated value of the 
+	user's emotion.
 
-	-pie chart will change dynamically if user will change it's emotion.
+	-Pie chart will change it's shape dynamically if user will change it's emotion.
