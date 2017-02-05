@@ -3,7 +3,7 @@
 	3.6.1 RELIABILITY
 
 The following application is designed to be built and deployed on android platform, and will reliably run on any android phone with android version above 4.1
-The reliability of the app in emotion detection will depend primarily on the vastness training data, 
+The reliability of the app in emotion detection will depend primarily on the vastness of the training data, 
 a requirement that needs to be taken care of on the developer side while working on the project 
 
 
