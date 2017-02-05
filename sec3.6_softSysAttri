@@ -13,13 +13,12 @@ The application will be available for download on the google play store and will
 
 	3.6.3 SECURITY 
 
-Other of the app can in no way see the emotion results of other users without their prior knowledge and permission. (__ sharing __ discuss later)  
+Users of the app can in no way see the emotion results of other users without their prior knowledge and permission. (__ sharing __ discuss later)  
 	
 	3.6.4 MAINTAINABILITY
 
-Maintaenance is onw form of change that typically is done after the software development has been completed.
-As the time changes, so do the needs. 
-This application needs a timely updation of the expression and face database suiting to the location where the app is intended to be used, 
+Maintenance is one form of change that typically is done after the software development has been completed.
+As the time changes, so do the needs. This application needs a timely updation of the expression and face database suiting to the location where the app is intended to be used, 
 and so the database needs to be expanded upon every updation of the app.
 As an example, for the app to show best results in emotion detection, training data comprising of faces from different parts of the world is needed, so as to facilitate better detection.
 All this maintenence will be timely done on subsequent updations of the app by the admin.
