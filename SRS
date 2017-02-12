@@ -82,45 +82,131 @@ it is to be used from some different location of the world.Also, the app can be 
 to another, given that the other device complies to the hardware and software requirements as specified in section___.
 
 
+FUNCTIONAL REQUIREMENT - 
 
+FR 1 - 
+		TITLE : SELECTON OF MODE 
+		INPUT : User's choice from the given options of mode.
+		OUTPUT : opening the required application. 
+		DESC. :There shall  be two modes for emotion detection in this app vis. imotion detection from image or real time detection using front 	
+			   camera. The user shall be able to choose between the modes. 
+			   Further navigation of the app depends on the user's choice here. 
 
-FUNCTIONAL REQUIREMENT 
+		RAT. : In order to provide option to choos between modes.
+		DEP : 
 
-  Main screen - This will be the first screen that will be displayed.It will allow user to access different based upon user's preference.
-  Various fields available on this screen will be. 
-	1)Choose image - select images from user's gallery
-	2)Do analysis(don't know exact name) - starts emotion detection using front camera.
-  
-  MODE 1(image analysis)
+FR 2 - 
+
+		TITLE : IMAGE SELECTION
+		INPUT : stored images
+		OUTPUT : selected image
+		DESC. : If the user chooses for emotion detection from an already saved image, she shall be able to select an image from those stored in the device. 
+		RAT : In order to facilitate image selection be the user.
+		DEP : FR 1 
+
+FR 3  - 
+		TITLE : Seeking confirmation for image
+		INPUT : Detected face
+		OUTPUT : User's decision.
+		DESC : After the user selected an image from all the stored images, she shall be able to verify by looking at the detected face, whether this is the face she intend to use for analysis. 
+		RAT : verifying if the detected face is correct.
+		DEP : FR 2 , FR 1
+
+FR 4 - 
+		TITLE : Emotion Detection from image
+		INPUT : Detected face
+		OUTPUT : calculated emotion
+		DESC : If the detected face is confirmed by the user, It's emotion shall be calculated and shown in decreasing order of the accuracy of the 
+			   calculated emotion.
+		RAT : Displaying the results.
+		DEP : FR 3 , FR 2 , FR 1
+
+FR 5 -  
 	
-	-This screen will be accessible only if user has chosen an image from gallery. User shall 
-	 either continue analysis or choose another image.
-	
-	-Searching for a single face from the image and showing user the selected region.If multiple
-         faces are present user has to choose another image, he/she can't proceed further
+		TITLE : Exit option for image detection mode
+		INPUT : User's choice to exit
+		OUTPUT: Directing user to beginnning
+		DESC: If user has seen the results, user shall be able to exit the mode. User shall be able to either change the mode or choose another in the same mode to continue emotion detection.User may even opt to leave the application.
+		RAT: in order to provide usr option to exit.
+		DEP : FR 1
+
+
+FR 6  - 
+		TITLE : Seeking confirmation for correctness of detected face in real time
+		INPUT : Detected face
+		OUTPUT : User's decision.
+		DESC :  If the user chooses for real time emotion detection then she shall be able to verify if the detected faces in the recorded video from front camera is correct or not. She can proceed further if everything is correct. 
+		RAT : verifying if the detected face is correct.
+		DEP : FR 1
+
+
+FR 7 - 
+		TITLE : Real time emotion detection
+		INPUT : Detected face
+		OUTPUT : calculated emotion
+		DESC : If the detected face is confirmed by the user, It's emotion shall be calculated and shown in decreasing order of the accuracy of the calculated emotion . If the user changes her facial expression output should change dynamically according to her expression. 
+		RAT : Displaying the results for real time emotion detection.
+		DEP : FR 6, FR 1
+
+FR 8 -  
+
+		TITLE : Exit option for real time emotion detection mode
+		INPUT : User's choice to exit
+		OUTPUT: Directing user to beginning
+		DESC: If user has seen the results, user shall be able to exit the mode. User shall be able change the mode. User may even opt to leave the application.
+		RAT: in order to provide user option to exit.
+		DEP : FR 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 		
-	-If single face is detected in image by face detector and user is 
-	satisfied with the image user can continue further.
 
-	-This screen will appear if user has chosen an image for emotion detection .This screen shall
-	 show the face under recognition and emotions detected in the image in decreasing order of most likely emotion.
 
-	-User can exit the screen he/she shall be directed to main screen where user again has the same choices
 
-  MODE 2(real time emotion detection)
-		
-	-This screen will be accessible only if user has chosen emotion analysis by front camera(don't know what exactly should go here).
- 	 There shall be a button by clicking it user can start the analysis(I think we haven't discussed it but it is needed for sure)
-	
-	-Button to stop the analysis and it shall direct the user to main screen
-	
-	-Detection of face from the images. User has to focus front camera to only one face in case if there is multiple face detection.
-	
-	-Identification of various points on face which are usefull for emotion detection.
 
-	-Emotion detection using the processed information and calculation of results.
-	
-	-There shall be a pie chart at the bottom of the screen showing the calculated value of the 
-	user's emotion.
 
-	-Pie chart will change it's shape dynamically if user will change it's emotion.
+
+
+
+
+
+
+
+
+
