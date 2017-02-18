@@ -142,8 +142,7 @@ https://en.wikipedia.org/}}\expnd0\expndtw0\kerning0
 \b\fs48 \cf0 2 OVERALL DESCRIPTION\
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\partightenfactor0
 \cf0 \
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\partightenfactor0
-\cf0 		
+		
 \b0\fs36 \
 		
 \b 2.1 OPERATIONS\
@@ -189,7 +188,7 @@ https://en.wikipedia.org/}}\expnd0\expndtw0\kerning0
 \f2\b0\fs24 \
 \
 
-\f0\fs36 This section provides a detailed description of all inputs into and outputs from the system. It also gives a
+\f0\fs36 This section provides a detailed description of all inputs and outputs from the system. It also gives a
 \f2\fs24 \
 
 \f0\fs36 description of the hardware, software and communication interfaces and provides basic prototypes of the
@@ -205,48 +204,30 @@ https://en.wikipedia.org/}}\expnd0\expndtw0\kerning0
 \b 3.1.1 USER INTERFACE-
 \f2\b0\fs24 \
 
-\f0\fs36 As the user opens the app on her smart phone, she is prompted with two options on the first screen; 
-\f2\fs24 \
-
-\f0\fs36 vis. "choose an image from the gallery" and "detect your emotion", with a button corresponding to each one.
+\f0\fs36 As the user opens the app on her smart phone, she is prompted with two options i.e \'93choose image from gallery\'94 or \'93real time emotion detection\'94 .
 \f2\fs24 \
 \
 
-\f0\fs36 case 1-
+\f0\fs36 Mode 1-
 \f2\fs24 \
 \
 
-\f0\fs36 If the user opts to choose an image from the gallery, the phone gallery gets opened and the user
+\f0\fs36 If the user opts to choose an image from the gallery, the device\'92s gallery shall open and the user
 \f2\fs24 \
 
-\f0\fs36 can select one picture(max). If there are more than one faces in the picture, a prompt appears on 
-\f2\fs24 \
-
-\f0\fs36 the screen asking the user to change her preference. else, the selected photo gets loaded on the next 
-\f2\fs24 \
-
-\f0\fs36 screen (circular image on top middle). The user clicks "go" and the emotion associated with the selected 
-\f2\fs24 \
-
-\f0\fs36 image is detected and displayed on the screen.
+\f0\fs36 can select any one image(max). If there are more than one faces in the picture, user is requested to  change her preference. If the requirements are met, user can see her face under analysis and the detected emotions. User can further share the results with concerned persons.
 \f2\fs24 \
 \
 
-\f0\fs36 case 2- 
+\f0\fs36 Mode 2- 
 \f2\fs24 \
 \
 
-\f0\fs36 User selects the second option and goes for real time emotion detection. Here, when the user 
-\f2\fs24 \
-
-\f0\fs36 clicks on the second button, front camera of the phone opens up and the user can see her emotion
-\f2\fs24 \
-
-\f0\fs36 being detected. This is noticed from the emoji of the associated becoming bigger and occupying the bottom of the screen.
+\f0\fs36 If the user selects the second mode real time emotion detection will start . User can see her face as seen by front camera of the device. If the requirements are met, user can see her emotion changing dynamically on the screen. User can share the results with concerned persons.
 \f2\fs24 \
 \
 
-\f0\fs36 The user can opt out of the app anytime by clicking on the red cross marked button on the top right of the screen. 
+\f0\fs36 The user can exit the app or change between the above mentioned modes.
 \f2\fs24 \
 \
 \pard\tx565\tx1132\tx1700\tx2267\tx2834\tx3401\tx3968\tx4534\tx5101\tx5668\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
@@ -256,9 +237,9 @@ https://en.wikipedia.org/}}\expnd0\expndtw0\kerning0
 \
 \pard\tx565\tx1132\tx1700\tx2267\tx2834\tx3401\tx3968\tx4534\tx5101\tx5668\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
 
-\f0\fs36 \cf0 The following app has being designed for android phones (android 4.1+), having front camera of atleast 2 MP. 
+\f0\fs36 \cf0 The following app has been designed for android phones (android 4.1+), having a front camera of atleast 2 MP. 
 \f2\fs24  
-\f0\fs36 There is as such no more hardware requirements; the real time detection is managed by the internal camera of the smart phone whereas the static image detection is managed by the gallery in the phone.
+\f0\fs36 There is as such no hardware requirements. The real time detection is managed by the internal front camera of the device whereas the static image detection is managed by the gallery in the device.
 \f2\fs24 \
 \
 \
@@ -278,7 +259,7 @@ https://en.wikipedia.org/}}\expnd0\expndtw0\kerning0
 \f0\fs36 The following application is designed to be built and deployed on android platform, and will reliably run on
 \f2\fs24 \
 
-\f0\fs36 any android phone with android version above 4.1.The reliability of the app in emotion detection will depend primarily on the vastness of the training data, a requirement that needs to be taken care of on the developer
+\f0\fs36 any android phone with android version above 4.1.The reliability of the app in emotion detection will depend primarily on the accuracy of emotion detection algorithm, a requirement that needs to be taken care of on the developer
 \f2\fs24  
 \f0\fs36 side while working on the project 
 \f2\fs24 \
@@ -300,13 +281,10 @@ https://en.wikipedia.org/}}\expnd0\expndtw0\kerning0
 \f2\fs24 \
 \
 
-\f0\fs36 Users of the app can in no way see the emotion results of other users without their prior knowledge and permission.
+\f0\fs36 Users of the app can in no way see the emotion results of other users without their prior knowledge and permission. 
 \f2\fs24 \
 
-\f0\fs36  
-\f2\fs24 \
-
-\f0\fs36 	
+\f0\fs36  	
 \f2\fs24 \
 
 \f0\fs36 		
@@ -314,13 +292,13 @@ https://en.wikipedia.org/}}\expnd0\expndtw0\kerning0
 \f2\b0\fs24 \
 \
 
-\f0\fs36 Maintenance is one form of change that typically is done after the software development has been completed.
+\f0\fs36 Maintenance is one form of change that typically is done after the software development has been completed,
 \f2\fs24  
-\f0\fs36 As the time changes, so do the needs. This application needs a timely updation of the expression and face
+\f0\fs36 as the time changes, so do the needs. This application needs a timely updation of the expression and face detection
 \f2\fs24  
 \f0\fs36 database suiting to the location where the app is intended to be used, and so the database needs to be expanded upon every updation of the app. As an example, for the app to show best results in emotion detection, training data comprising of faces from different parts of the world is needed, so as to facilitate better detection.
 \f2\fs24  
-\f0\fs36 All this maintenence will be timely done on subsequent updations of the app by the admin.
+\f0\fs36 All this maintenance will be timely done on subsequent versions of the app by the developers.
 \f2\fs24 \
 \
 
@@ -329,7 +307,7 @@ https://en.wikipedia.org/}}\expnd0\expndtw0\kerning0
 \f2\b0\fs24 \
 \
 
-\f0\fs36 Since the app is built for portable android phones, it is freely portable and needs no re-download or update if it is to be used from some different location of the world. Also, the app can be freely transferred from one device to another, given that the other device complies to the hardware and software requirements as specified in section___.
+\f0\fs36 Since the app is built for portable android phones, it is freely portable and needs no re-download or update if it is to be used from some different location of the world. Also, the app can be freely transferred from one device to another, given that the other device complies to the hardware and software requirements as specified in section 7.
 \f2\fs24 \
 \
 \
