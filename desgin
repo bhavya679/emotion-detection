@@ -43,5 +43,16 @@ Mainline Sequence  -
 			User - selects an app from the displayed list
 			System - shares the results and displays a message indicating success (or failure) 
 
+USE CASE 4 - Exit
+Introduction - This lets the user exit from the app
+Pre condition - The user must be present in the home page to be able to exit from the app
+Post Condition - The app gets closed
+Mainline Sequence - 
+			User - selects the exit button
+			system - seeks confirmation
+			User - confirms exit
+			sustem - closes the app
+Alternate Sequence - 
+			User - does not confirm to exit
+			system - closes the cornfirmation dialogue box and remains in it's state
 
-  		
