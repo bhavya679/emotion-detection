@@ -1,0 +1,51 @@
+1) various emotion detection apis - 
+ http://nordicapis.com/20-emotion-recognition-apis-that-will-leave-you-impressed-and-concerned/ 
+
+2)http://www.paulvangent.com/2016/04/01/emotion-recognition-with-python-opencv-and-a-face-dataset/               
+
+3) more on various moods and signs - 
+http://www.crystalinks.com/faces.html   
+
+4) http://hanzratech.in/2015/02/03/face-recognition-using-opencv.html  
+
+
+			emotion detection APIs
+			
+5)  http://emovu.com/docs/html/getting_started.htm  -                 		
+6) https://www.microsoft.com/cognitive-services/en-us/emotion-api/documentation	
+7)  https://github.com/Microsoft/Cognitive-Emotion-Android
+8)  http://liliankasem.com/2016/02/26/project-oxford-emotion-recognition-on-android/
+9)  http://www.mood-me.com/face-tracking-sdk/
+10) https://android-arsenal.com/details/1/3070  
+11) http://blog.mashape.com/list-of-10-face-detection-recognition-apis/
+
+MOODS AND SIGNS
+
+      			SAD -  
+
+ eyebrows. They will be slanting upward. A sad person will also be frowning
+
+ 				HAPPINESS - 
+
+ large smile .
+
+ 				SURPRISE  -
+
+ wide open eyes and an open gaping mouth
+ The eyebrows will be pulled up very high.
+
+ 				FEAR - 
+
+  The eyebrows will be slanted upward, and the eyes will be wide open.[9] The mouth might also be stretched open widely.[10]
+
+  				DISGUST - 
+
+ wrinkled nose 
+ eyebrows will also lower, and the mouth will hang open
+ upper lip will pull up.
+
+ 				ANGER - 
+
+ eyebrows. They will be lowered and slanted inward, creasing together into a wrinkle. The eyelids will be tight and straight, as the brow will be lowered.
+ The mouth may be tight, 
+

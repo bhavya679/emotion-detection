@@ -1,0 +1,47 @@
+							1.An example organization of an SRS is as follows:
+
+	Purpose
+	Definitions
+	System overview
+	References
+
+
+Overall description
+	Product perspective
+			System Interfaces
+			User Interfaces
+			Hardware interfaces
+			Software interfaces
+			Communication Interfaces
+			Memory Constraints
+	Design Constraints
+			Operations
+			Site Adaptation Requirements
+	Product functions
+	User characteristics
+	Constraints, assumptions and dependencies
+
+
+Specific requirements
+	External interface requirements
+	Functional requirements
+	Performance requirements
+	Logical database requirement
+	Software System attributes
+			Reliability
+			Availability
+			Security
+			Maintainability
+			Portability
+	others..
+
+
+							2.
+The Software Requirements Specification (SRS) is a communication tool between stakeholders and software designers. The specific goals of the SRS are:
+
+Facilitating reviews
+Describing the scope of work
+Providing a reference to software designers (i.e. navigation aids, document structure)
+Providing a framework for testing primary and secondary use cases
+Including features to customer requirements
+Providing a platform for ongoing refinement (via incomplete specs or questions)

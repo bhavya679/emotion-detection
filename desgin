@@ -1,0 +1,47 @@
+USE CASE DIAGRAM - 
+
+USE CASE-1 - Emotion detection in real time
+Introduction - This use case let's the user do emotion detection in real time using the front camera of her smart phone.  
+Pre condition - The user must have selected "emotion analysis in real time" option in the mode selection screen. 
+Post condition - If this use case is successful, the user can see her emotions in real time using the front camera of the smartphone.
+MainLine Sequence - 
+			User - selects the real time emotion detection mode
+			System - opens the front camera and shows the detected face by indicating a box around the most prominent face. 
+			user - Gives confirmaton that the detected face is the one for which she  wants to see emotion for. 
+			System - After getting the confirmation from the user, it does the emotion analysis and displays the result to the user.
+Alternate sequence - 
+			User - Does not confirm to the detected face by clicking the no button. 
+			System - Goes back and displays the main screen which again promts the user to choose between the mode.
+
+
+
+USE CASE-2 - Emotion detection in pre taken image
+Introduction - This use case let's the user do emotion analysis of some image stored in her smart phone.
+Pre condition - The user must have selected "emotion  analysis from image" option in the mode selection screen.
+Post Condition - If this use case is successful, the user can see the emotions of people in images that are stored in her phone and subsequently 					share the result.
+Mainline Sequence - 
+			User -  selects the 'emotion detection from image' option in the mode selection screen.
+			System - opens the phone gallery and displays all the images to the user.
+			User - selects an image from the list of displayed images.
+			System - performs face detection and displays to the user modified image with a box surrounding the more prominnt face.
+			user- confirms if the detected face is the one for which she wants to perform emotion analysis.
+			System - performs emotion analysis and displays the result to the user.
+Alternate sequence - 
+			User - does not confirm to the detected face on the image.
+			System - Goes back and displays the main screen which again promts the user to choose between the mode.
+
+
+USE CASE-3 - sharing
+Introductoin - This use case lets the user share her emotions detection results with friends and acquaintainces
+Pre conditon - The user have have performed emotion analysis using the "emotion detection from image mode"
+Post condition - If this use case is successful, the emotion detection result will be shared with the contact chosen by the user
+Mainline Sequence  - 
+			User - selects the share option after getting the emotion results
+			System - opens a list of contacts saved in the phone.
+			User - Select the contact with whom she wants to share the resuls.
+			System - Displays a list of applications available for sharing
+			User - selects an app from the displayed list
+			System - shares the results and displays a message indicating success (or failure) 
+
+
+  		
